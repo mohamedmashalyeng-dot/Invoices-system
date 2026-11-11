@@ -1,0 +1,28 @@
+{
+  "name": "invoices-system",
+  "version": "1.0.0",
+  "description": "QuickPlus invoices & receipts system - Egypt & UAE branches (Arabic/English)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamedmashalyeng-dot/Invoices-system.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohamedmashalyeng-dot/Invoices-system/issues"
+  },
+  "homepage": "https://github.com/mohamedmashalyeng-dot/Invoices-system#readme",
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "express": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "private": true
+}
